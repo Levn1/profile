@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body{
+  background-color: #E7E6E1;
+}
+
+.container{
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card{
+  background-color: rgb(243, 243, 243);
+  border-radius: 4px;
+  box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  padding: 10px 40px 40px ;
+  margin-bottom: 40px;
+}
+
+/* .card p {
+  margin-bottom: 50px;
+} */
+
+.round_image{
+  border-radius: 100px;
+  color: #fff;
+  box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.05);
+}
+
+.button {
+  background-color: #F2A154;
+  padding: 15px;
+  color: white;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+a.button:hover {
+  color: #F2A154;
+  background: #ca8544;
+  box-shadow: 3px 4px 20px #7575751e;
+  color:white;
+}
+
+h1{
+  font-family: 'Roboto', 'Serif';
+  color: #314E52;
+  font-size: 40px;
+}
+
+h3{
+  font-family: 'Roboto', 'Serif';
+  color: #314E52;
+  font-size: 30px;
+}
+
+p{
+  font-family: 'Roboto', 'Serif';
+  font-size: 22px;
+}
+
+a{
+  color: #F2A154;
+  font-family: 'Roboto', 'Serif';
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 40px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 80px;
+  margin: 10px;
+}
